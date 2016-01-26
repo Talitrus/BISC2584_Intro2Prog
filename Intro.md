@@ -109,7 +109,7 @@ my_favorite_word[3] #this is 'r'
 
 ##True or False?
 ####Booleans
-Sometimes you need to know if something is true or false so you can have your program make a decision. You can store the value of True or False in variables the same way that you store numbers in a variable.
+Sometimes you need to know if something is true or false so you can have your program make a decision. You can store the value of True or False in variables the same way that you store numbers in a variable. This is called a Boolean.
 
 Example:
 ```python
