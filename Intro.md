@@ -220,3 +220,32 @@ for index in range(0, len(example_list)):
 	print example_list[index]
 ```
 This does the exact same thing as the first `for` loop above. 
+
+####`while` loop
+A `while` loop repeats **while** a condition is `True`.
+
+Example:
+```python
+condition = (1 > 0) #condition is True because 1 is always greater than 0
+while (condition):
+	#do something
+	print "Hello"
+#this code will print "Hello" to your screen forever
+```
+
+Like a `for` loop, you can also use a while loop to move through a list. The example below illustrates this by spelling out a string one letter at a time.
+```python
+my_favorite_animal = 'zebra' #remember a string is just a list of characters
+counter = 0 #we need a counter variable to move through our list
+while (counter < len(my_favorite_animal)): #while you haven't reached the end of the string
+	print my_favorite_animal[counter] #print out the current letter
+	counter = counter + 1 #add 1 to our counter so we move to the next letter
+```
+The output from this program is:
+```
+z
+e
+b
+r
+a
+```
