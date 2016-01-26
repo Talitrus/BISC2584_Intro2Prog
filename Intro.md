@@ -19,7 +19,7 @@ num_of_cats = 5
 ```
 
 ##Print
-`print` is a function built into most programming languages that will 'print' whatever you give it to terminal (the screen). Using print smartly can help you debug your program.
+`print` is a function built into most programming languages that will 'print' whatever you give it to terminal (the screen). Using print smartly can help you debug your program by allowing your program to give you visual feedback as it moves through its structure.
 
 Example:
 ```python
