@@ -1,5 +1,6 @@
 #Programming Fundamentals for Intro to Bioinformatics
 The examples in this document are written for Python 2.7.
+
 ##Variables
 You can store information (e.g. a number or other kind of data) in a variable. When you first use a variable, you must give it a name. You can **assign** certain values or other data to a variable by using the equal sign.
 
