@@ -192,7 +192,7 @@ else:
 Many times in your life, you will need to do the same thing over and over again. Luckily, you can automate this in your computer programs using loops.
 
 ####`for` loop
-A `for` loop repeats over all of the items in list. You can define a variable in a while loop that takes the value of the current item in the list.
+A `for` loop repeats over all of the items in list. You can define a variable in a `for` loop that takes the value of the current item in the list.
 
 Syntax:
 ```python
@@ -234,6 +234,7 @@ while (condition):
 ```
 
 Like a `for` loop, you can also use a while loop to move through a list. The example below illustrates this by spelling out a string one letter at a time.
+
 ```python
 my_favorite_animal = 'zebra' #remember a string is just a list of characters
 counter = 0 #we need a counter variable to move through our list
