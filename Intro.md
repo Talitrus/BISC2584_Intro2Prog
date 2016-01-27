@@ -63,12 +63,12 @@ my_sum = add_two_numbers(num1,10)
 ```
 
 ##Lists
-A list is exactly what it sounds like: a list of variables. You could also have lists of lists, but that gets more comlicated than necessary for this course. Creating a list is similar to creating a variable, but you need to use commas to separate list items and square brackets to enclose your list.
+A list is exactly what it sounds like: a list of values. You could also have lists of lists, but that gets more complicated than necessary for this course. Creating a list is similar to creating a variable, but you need to use commas to separate list items and square brackets to enclose your list.
 
 Example:
 ```python
 my_fav_numbers = [1, 2, 4, 7, 88]
-#my_fav_numbers is now a list containing 5 variables
+#my_fav_numbers is now a list containing 5 values
 ```
 
 You can access items in the list by calling them by their index (i.e. their position number) in the format `list[index]`. The position of an item in a list counts upwards from left to right, **starting at zero.** When you call an item in a list, you can treat it like any other variable.
