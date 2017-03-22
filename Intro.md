@@ -1,7 +1,7 @@
-#Programming Fundamentals for Intro to Bioinformatics
+# Programming Fundamentals for Intro to Bioinformatics
 The examples in this document are written for Python 2.7.
 
-##Variables
+## Variables
 You can store information (e.g. a number or other kind of data) in a variable. When you first use a variable, you must give it a name. You can **assign** certain values or other data to a variable by using the equal sign.
 
 Example:
@@ -10,7 +10,7 @@ num_of_cats = 5
 ```
 The variable `num_of_cats` now contains the number 5. When naming your variable, you cannot use spaces. It is also helpful to give your variables informative names, rather than just 'x' or 'y'.
 
-##Comments
+## Comments
 You can "comment" out certain parts of your program by using the # symbol. The # symbol tells the computer running your program to ignore the rest of that line. This allows programmers to put human-readable notes in the body of their program. Writing informative and frequent comments is a good programming habit. Often times, you may find yourself returning to code that you've written too long ago to remember.
 
 Example:
@@ -19,7 +19,7 @@ num_of_cats = 5
 #This does nothing.
 ```
 
-##Print
+## Print
 `print` is a function built into most programming languages that will 'print' whatever you give it to terminal (the screen). Using print smartly can help you debug your program by allowing your program to give you visual feedback as it moves through its structure.
 
 Example:
@@ -28,7 +28,7 @@ print 10
 #This outputs '10' to your screen.
 ```
 
-##Expressions
+## Expressions
 An expression is a programming "phrase" that evaluates to something else. You can set variables to the result of an expression. Expressions can include functions, mathematical operators, variables, and constants.
 
 Example:
@@ -41,7 +41,7 @@ e = abs(b) #abs() is a function that returns absolute values. e is 3.
 
 ```
 
-##Functions
+## Functions
 A function is a "mini program-in-a-program" that *takes in parameters* and *returns* some sort of output. Functions can be either built-in to a programming language or user-defined. Once we define our own functions, we can call on them whenever necessary by using their name.
 We can define our own function using the following format. Be sure to indent the line following `def`; this indicates that the code in the indented block is **inside** of the function.
 ```
@@ -62,7 +62,7 @@ my_sum = add_two_numbers(num1,10)
 #my_sum now contains the number 17.
 ```
 
-##Lists
+## Lists
 A list is exactly what it sounds like: a list of values. You could also have lists of lists, but that gets more complicated than necessary for this course. Creating a list is similar to creating a variable, but you need to use commas to separate list items and square brackets to enclose your list.
 
 Example:
@@ -90,7 +90,7 @@ len(my_fav_numbers) #This is 5.
 ```
 
 
-####Strings
+#### Strings
 A string is just a list of characters (e.g. alphabetical letters). Setting a variable equal to a word or a DNA sequence, for example, will create a string. Use single quotes when using strings to prevent the computer from thinking your string is referring to a variable.
 
 Example:
@@ -107,8 +107,8 @@ my_favorite_word[2] #this is 'o'
 my_favorite_word[3] #this is 'r'
 ```
 
-##True or False?
-####Booleans
+## True or False?
+#### Booleans
 Sometimes you need to know if something is true or false so you can have your program make a decision. You can store the value of True or False in variables the same way that you store numbers in a variable. This is called a Boolean.
 
 Example:
@@ -116,7 +116,7 @@ Example:
 matt_owns_a_cat = False
 matt_likes_cats = True
 ```
-####Boolean expressions
+#### Boolean expressions
 Instead of resulting in a number or something, certain expressions will `return` a Boolean value (i.e. `True` or `False`). Most often, these are expressions that are comparing values. This includes following operators:
 
 | Operator | Meaning |
@@ -136,8 +136,8 @@ a == 5 #is False because a is 4 and 4 is not equal to 5.
 true_or_false = ((a + 1) == 5)
 #true_or_false contains the value True
 ```
-##Control Structures
-####If or else
+## Control Structures
+#### If or else
 Sometimes you need a program to run specific code if something (a condition) is true or false. This is possible using control structures. The most basic control structure is the `if` statement, which checks to see if an expression is True and then runs code if it is.
 
 This uses the following syntax (i.e. format):
@@ -188,7 +188,7 @@ else:
 	
 ```
 
-##Loops
+## Loops
 Many times in your life, you will need to do the same thing over and over again. Luckily, you can automate this in your computer programs using loops.
 
 ####`for` loop
@@ -221,7 +221,7 @@ for index in range(0, len(example_list)):
 ```
 This does the exact same thing as the first `for` loop above. 
 
-####`while` loop
+#### `while` loop
 A `while` loop repeats **while** a condition is `True`.
 
 Example:
