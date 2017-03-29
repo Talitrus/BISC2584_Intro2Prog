@@ -191,7 +191,7 @@ else:
 ## Loops
 Many times in your life, you will need to do the same thing over and over again. Luckily, you can automate this in your computer programs using loops.
 
-####`for` loop
+#### `for` loop
 A `for` loop repeats over all of the items in list. You can define a variable in a `for` loop that takes the value of the current item in the list.
 
 Syntax:
