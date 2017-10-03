@@ -1,3 +1,7 @@
+---
+title: Programming Fundamentals for Intro to Bioinformatics
+layout: post
+---
 # Programming Fundamentals for Intro to Bioinformatics
 The examples in this document are written for Python 2.7.
 
