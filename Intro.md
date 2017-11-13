@@ -1,9 +1,5 @@
----
-title: Programming Fundamentals for Intro to Bioinformatics
-layout: post
----
 # Programming Fundamentals for Intro to Bioinformatics
-The examples in this document are written for Python 2.7.
+The examples in this document are written for Python 3.6.
 
 ## Variables
 You can store information (e.g. a number or other kind of data) in a variable. When you first use a variable, you must give it a name. You can **assign** certain values or other data to a variable by using the equal sign.
@@ -28,7 +24,7 @@ num_of_cats = 5
 
 Example:
 ```python
-print 10
+print(10)
 #This outputs '10' to your screen.
 ```
 
@@ -202,7 +198,7 @@ Syntax:
 ```python
 example_list = [11, 12, 13, 14]
 for current_item in example_list:
-	print current_item
+	print(current_item)
 ```
 
 The output is:
@@ -221,7 +217,7 @@ range(example_list) #this is [0, 1, 2, 3]
 ```python
 example_list = [11, 12, 13, 14]
 for index in range(0, len(example_list)):
-	print example_list[index]
+	print(example_list[index])
 ```
 This does the exact same thing as the first `for` loop above. 
 
@@ -233,7 +229,7 @@ Example:
 condition = (1 > 0) #condition is True because 1 is always greater than 0
 while (condition):
 	#do something
-	print "Hello"
+	print("Hello")
 #this code will print "Hello" to your screen forever
 ```
 
@@ -243,7 +239,7 @@ Like a `for` loop, you can also use a while loop to move through a list. The exa
 my_favorite_animal = 'zebra' #remember a string is just a list of characters
 counter = 0 #we need a counter variable to move through our list
 while (counter < len(my_favorite_animal)): #while you haven't reached the end of the string
-	print my_favorite_animal[counter] #print out the current letter
+	print(my_favorite_animal[counter]) #print out the current letter
 	counter = counter + 1 #add 1 to our counter so we move to the next letter
 ```
 The output from this program is:
